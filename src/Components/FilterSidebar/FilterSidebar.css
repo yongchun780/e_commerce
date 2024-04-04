@@ -1,0 +1,8 @@
+.filter-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px; /* Space below the header */
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e1e1e1; /* Line under the header for separation */
+    color: #333; /* Darker text for contrast */
+  }

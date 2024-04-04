@@ -1,0 +1,121 @@
+.shop-category {
+  display: flex;
+  max-width: 100%; 
+  margin: auto; 
+}
+.left-filterbar {
+  flex: 1;
+  max-width: 240px;
+  margin-left: 100px;
+  margin-right: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+.items-right {
+  flex: 1;
+}
+
+.search-and-sorting {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+}
+
+.search-container {
+  display: flex;
+  margin-left: 7%;
+  flex-grow: 1;
+}
+.search-bar {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 20px;
+}
+
+.sorting-container {
+  margin-right: 13%;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: #f0f2f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.shopcategory-indexSort {
+  display: flex;
+  margin: 0px 170px;
+  justify-content: space-between;
+  align-items: center;
+}
+.shopcategory-sort {
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: 1px solid #888;
+}
+.shopcategory-indexSort p span {
+  font-weight: 600;
+}
+.shopcategory-products {
+  width: 90%;
+  max-width: 1360px;
+  justify-content: center;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.shopcategory-products img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+}
+.shopcategory-loadmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  width: 200px;
+  height: 60px;
+  border-radius: 75px;
+  background: #ededed;
+  color: #787878;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+@media (max-width: 1280px) {
+  .shopcategory-banner {
+    margin: 20px auto;
+    width: 90%;
+  }
+  .shopcategory-indexSort {
+    width: 90%;
+    margin: auto;
+  }
+  .shopcategory-sort {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .shopcategory-indexSort p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 800px) {
+  .shopcategory-banner {
+    width: 95%;
+  }
+  .shopcategory-loadmore {
+    margin: 60px auto;
+    width: 150px;
+    height: 40px;
+    font-size: 13px;
+  }
+}
